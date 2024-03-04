@@ -1,3 +1,5 @@
-export default function Page(){
-    return <p>Hola mundo</p>
+export default function Page() {
+    return (
+        <p className="text-xl">Bienvenido a Cofifac</p>
+    )
 }

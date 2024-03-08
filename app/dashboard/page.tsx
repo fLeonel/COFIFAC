@@ -1,5 +1,5 @@
-export default function Page() {
+export default function dashboardPage() {
     return (
-        <p className="text-xl">Bienvenido a Cofifac</p>
+        <p className="text-xl">Test</p>
     )
 }

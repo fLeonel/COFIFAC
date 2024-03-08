@@ -34,7 +34,7 @@ export default function Home() {
         </div>
         <Link href="./dashboard">
           <button
-            className="transform rounded-sm bg-indigo-600 py-2 font-bold duration-300 hover:bg-indigo-400 w-[69vh]">
+            className="transform rounded-sm bg-indigo-600 py-2 font-bold duration-300 hover:bg-indigo-400 w-[480px]">
             Acceder al sistema
           </button>
         </Link>

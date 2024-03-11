@@ -27,19 +27,17 @@ export default function Home() {
             placeholder="Password"
             className="w-full border-none bg-transparent outline-none placeholder:italic focus:outline-none" />
         </div>
-        <Link href="./dashboard">
+        <Link href="./dashboard/">
           <button
             className="transform rounded-sm bg-indigo-600 py-2 font-bold duration-300 hover:bg-indigo-400 w-[480px]">
             Acceder al sistema
           </button>
         </Link>
-        <a
-          href="#"
+        <a href="#"
           className="transform text-center font-semibold text-gray-500 duration-300 hover:text-gray-300">
           Olvide mi contraseña</a>
         <p className="text-center text-lg">
-          No tienes cuenta?
-          <a
+          No tienes cuenta? <a
             href="#"
             className="font-medium text-indigo-500 underline-offset-4 hover:underline">Contactanos </a>
         </p>

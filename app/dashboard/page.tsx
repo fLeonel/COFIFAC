@@ -1,5 +1,5 @@
-export default function dashboardPage() {
+export default function dashboard(){
     return (
-        <p className="text-xl">Test</p>
+        <h1> Bienvenido al Dashboard</h1>
     )
 }
